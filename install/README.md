@@ -14,7 +14,7 @@ curl -sfL https://get.k3s.io | INSTALL_K3S_CHANNEL=latest sh -
 
 ## Step2: on all worker node
 
-> First run the below command `**k3s on master**` to get the values 
+> First run the below command **`k3s on master`** to get the values 
 1. hostname -i  -- copy the ipaddr of master node
 2. cat /var/lib/rancher/k3s/server/node-token
 
