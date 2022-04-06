@@ -4,7 +4,8 @@
 ```
 sudo curl -sfL https://get.k3s.io | INSTALL_K3S_CHANNEL=latest sh -
 ```
-#### [more info on options](https://rancher.com/docs/k3s/latest/en/installation/install-options/#options-for-installation-with-script)
+### [customize installation](https://rancher.com/docs/k3s/latest/en/installation/install-options/#options-for-installation-with-script)
+
 
 
 ## Step2: on all worker node
