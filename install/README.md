@@ -14,11 +14,11 @@ curl -sfL https://get.k3s.io | INSTALL_K3S_CHANNEL=latest sh -
 
 ## Step2: on all worker node
 
-> First run the below command **`k3s on master`** to get the values 
+### First run the below command **`k3s on master`** to get the values 
 1. hostname -i  -- copy the ipaddr of master node
 2. cat /var/lib/rancher/k3s/server/node-token
 
-> Execute below on all worker nodes 
+### Execute below on all worker nodes 
 ```
 export K3S_URL=https://master-node-ip:6443
 export K3S_TOKEN="node-token copied from master node"
